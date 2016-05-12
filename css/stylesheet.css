@@ -1,0 +1,123 @@
+.navbar-default .navbar-brand{
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size:33px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#fff;
+    font-size: 20px;
+}
+.navbar {
+    margin-bottom: 0;
+    padding:30px;
+    background-color: #0AC92B;
+}
+.navbar-default .navbar-brand:hover{
+    color:yellow;
+}
+.navbar-default .navbar-brand:active, :focus{
+    color:#fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color:yellow;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color:yellow;
+}
+
+#services{
+    padding:80px 10px;
+    background-color: #2b007c;
+}
+.jumbotron {
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+}
+.underline{
+    text-decoration: underline;
+}
+img{
+    width:100%;
+    height:600px;
+}
+
+#services H2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+#services ul li {
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#fff;
+}
+#services h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: yellow;
+}
+.align-center{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+.scrollTop a{
+    float:right;
+    margin-right: 20px;
+}
+ul {
+    margin-left:110px;
+}
+.phoneContact {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top:25px;
+    font-size:25px;
+}
+.paddingOr {
+    margin-left:80px;
+}
+a#foxyform_embed_link_778166 a{
+    color:#fff;
+    width:0;
+}
+footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#fff;
+    padding:50px;
+    background-color:#0AC92B;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+    img {
+    width: 100%;
+    height: 600px;
+    display: block;
+    }
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+    img {
+    width: 100%;
+    height: 600px;
+    display: block;
+    
+ }
+ .col-md-12 {
+    padding-left:0;
+    padding-right:0;
+}
+.col-md-4 {
+    padding-left:0;
+    padding-right:0;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+    img {
+    width: 100%;
+    height: 600px;
+    }
+ }
