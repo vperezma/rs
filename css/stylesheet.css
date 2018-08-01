@@ -1,123 +1,108 @@
-.navbar-default .navbar-brand{
-    color:#fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size:33px;
+ a.navbar-brand {
+    color:#fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
 }
-.navbar-default .navbar-nav>li>a {
-    font-family: 'Roboto Condensed', sans-serif;
+.navbar-nav>li>a {
+    font-family: 'Roboto', sans-serif;
     color:#fff;
     font-size: 20px;
 }
-.navbar {
+nav {
     margin-bottom: 0;
     padding:30px;
-    background-color: #0AC92B;
+    background-color: #0D4664 !important;
+    border: none;
+    border-radius: 0;
 }
-.navbar-default .navbar-brand:hover{
-    color:yellow;
-}
-.navbar-default .navbar-brand:active, :focus{
-    color:#fff;
-}
-.navbar-default .navbar-nav>li>a:hover {
-    color:yellow;
-}
-.navbar-default .navbar-nav>li>a:active {
-    color:yellow;
+.contentSection {
+    padding-top: 125px;
+    padding-bottom: 125px;
 }
 
-#services{
-    padding:80px 10px;
-    background-color: #2b007c;
+ul {
+    list-style-type: none;
 }
 .jumbotron {
-    margin-bottom:0;
-    padding-top:0;
-    padding-bottom:0;
+    background-image: url(images/shutterstock_166776692.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 200px;
 }
 .underline{
     text-decoration: underline;
 }
-img{
-    width:100%;
-    height:600px;
+.lineup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 #services H2 {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: #0D4664;
 }
 #services ul li {
-    font-family: 'Roboto Condensed', sans-serif;
-    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    color:#0D4664;
+    font-size: 20px;
 }
 #services h3 {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: yellow;
+    font-family: 'Roboto', sans-serif;
+    color: #0D4664;
 }
-.align-center{
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-}
-.scrollTop a{
-    float:right;
-    margin-right: 20px;
-}
-ul {
-    margin-left:110px;
-}
+
 .phoneContact {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top:25px;
     font-size:25px;
 }
-.paddingOr {
-    margin-left:80px;
-}
-a#foxyform_embed_link_778166 a{
-    color:#fff;
+
+a>#foxyform_embed_link_778166{
+    color: transparent !important;
     width:0;
 }
+.foxy {
+    width:100%;
+}
+.callAction {
+    font-size: 25px;
+    color: #0D4664;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.buttonStyle {
+    background-color: #0D4664;
+    color: #fff;
+}
 footer{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color:#fff;
-    padding:50px;
-    background-color:#0AC92B;
+    min-height: 100px;
+    background-color:#0D4664;
+}
+.displayCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.displayCenterCol {
+    display: flex;
+    flex-direction: Column;
+    align-items: center;
+    justify-content: center;
+}
+.topBottom-15 {
+    margin: 25px 0px;
 }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 
-    img {
-    width: 100%;
-    height: 600px;
-    display: block;
-    }
- }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { 
-    img {
-    width: 100%;
-    height: 600px;
-    display: block;
-    
- }
- .col-md-12 {
-    padding-left:0;
-    padding-right:0;
-}
-.col-md-4 {
-    padding-left:0;
-    padding-right:0;
-}
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
-    img {
-    width: 100%;
-    height: 600px;
-    }
+@media (min-width: 768px) {
+   .jumbotron {
+       height: 500px;
+   }
  }
